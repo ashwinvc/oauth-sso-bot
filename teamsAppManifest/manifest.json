@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "version": "1.0.0",
+  "id": "ab4489ab-02ba-456a-bd2a-46b53227b4ea",
+  "packageName": "com.microsoft.teams.samples",
+  "developer": {
+    "name": "Microsoft",
+    "websiteUrl": "https://example.azurewebsites.net",
+    "privacyUrl": "https://example.azurewebsites.net/privacy",
+    "termsOfUseUrl": "https://example.azurewebsites.net/termsofuse"
+  },
+  "icons": {
+    "color": "icon-color.png",
+    "outline": "icon-outline.png"
+  },
+  "name": {
+    "short": "Team Auth JS Bot (ashwinvc)",
+    "full": "Teams Auth JS Bot (ashwinvc)"
+  },
+  "description": {
+    "short": "Test Team Auth Module Scenario",
+    "full": "Simple Team Auth Module Scenario Test"
+  },
+  "accentColor": "#FFFFFF",
+  "bots": [
+    {
+      "botId": "ab4489ab-02ba-456a-bd2a-46b53227b4ea",
+      "scopes": ["personal"],
+      "supportsFiles": false,
+      "isNotificationOnly": false
+    }
+  ],
+  "permissions": ["identity", "messageTeamMembers"],
+  "validDomains": ["token.botframework.com", "*.ngrok.io"],
+  "webApplicationInfo": {
+    "id": "ab4489ab-02ba-456a-bd2a-46b53227b4ea",
+    "resource": "api://botid-ab4489ab-02ba-456a-bd2a-46b53227b4ea"
+  }
+}
